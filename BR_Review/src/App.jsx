@@ -357,16 +357,16 @@ import { IoLogoInstagram } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 import logo from "./assets/Main_Logo.webp";
-import bg1 from "./assets/bg1.webp";
-import bg2 from "./assets/bg2.webp";
-import bg3 from "./assets/bg3.webp";
-import bg4 from "./assets/bg4.webp";
-import bg5 from "./assets/bg5.webp";
-import bg6 from "./assets/bg6.webp";
-import bg7 from "./assets/bg7.webp";
-import bg8 from "./assets/bg8.webp";
-import bg9 from "./assets/bg9.webp";
-import bg10 from "./assets/bg10.webp";
+import bg1 from "./assets/Bg1.webp";
+import bg2 from "./assets/Bg2.webp";
+import bg3 from "./assets/Bg3.webp";
+import bg4 from "./assets/Bg4.webp";
+import bg5 from "./assets/Bg5.webp";
+import bg6 from "./assets/Bg6.webp";
+import bg7 from "./assets/Bg7.webp";
+import bg8 from "./assets/Bg8.webp";
+import bg9 from "./assets/Bg9.webp";
+import bg10 from "./assets/Bg10.webp";
 
 function App() {
   const [currentRating, setCurrentRating] = useState(0);
