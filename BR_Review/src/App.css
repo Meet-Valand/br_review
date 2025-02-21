@@ -30,7 +30,7 @@ body {
 /* Background Slideshow */
 .background {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background-size: cover;
   background-position: center;
   transition: background-image 1s ease-in-out;
@@ -123,7 +123,25 @@ body {
   font-size: 2rem;
   animation: fall 2s linear forwards;
 }
-
+.icon-container {
+  width:100%;
+  cursor:pointer;
+}
+.insta {
+  margin:20px;
+  color:#e56a7a;
+  font-size: 1.34rem;
+}
+.wp {
+  margin:20px;
+  color:#e56a7a;
+  font-size: 1.3rem;
+}
+.location {
+  margin:20px;
+  color:#e56a7a;
+  font-size: 1.3rem;
+}
 @keyframes fall {
   0% { transform: translateY(0); opacity: 1; }
   100% { transform: translateY(100vh); opacity: 0; }
@@ -134,4 +152,7 @@ body {
   margin-top: 20px;
   font-size: 0.8rem;
   color: #555;
+}
+.copyright {
+   color:#e56a7a;
 }

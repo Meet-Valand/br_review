@@ -353,6 +353,9 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
+import { IoLogoInstagram } from "react-icons/io";
+import { FaWhatsapp } from "react-icons/fa";
+import { CiLocationOn } from "react-icons/ci";
 import logo from "./assets/Main_Logo.webp";
 import bg1 from "./assets/bg1.webp";
 import bg2 from "./assets/bg2.webp";
@@ -544,7 +547,12 @@ function App() {
      
 
       <footer className="footer">
-        <p>© 2025 Baskin Robbins</p>
+         <div className="icon-container">
+           <a href="https://www.instagram.com/baskinrobbins_motera?igsh=MWpoajkydmtybHJudQ==" className="insta"><IoLogoInstagram /></a>
+           <a href="https://wa.me/message/4IO56AZIW656D1" className="wp"><FaWhatsapp/></a>
+           <a href="https://maps.app.goo.gl/XJA61C2btZYZqCpm8" className="location"><CiLocationOn /></a>
+         </div>
+        <p className="copyright">© 2025 Baskin Robbins(Motera)</p>
       </footer>
 
       {/* JSON-LD Structured Data */}
