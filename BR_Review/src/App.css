@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* General styles */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #fdfbfb, #ebedee);
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Logo */
+.logo {
+  width: 100px;
+  top: 73px;
+  left: 137px;
+  position: absolute;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.shopInitial{
+  font-size: 23px;
+  position: absolute;
+  font-family: "Sour Gummy", sans-serif;
+  height: 30px;
+  width: 73px;
+  padding: 5px;
+  left: 85px;
+  top: 21px;
+}
+.shopLogo {
+  height: 30px;
+  width: 45px;
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  left: 158px;
+  top: 45px;
+  background-color: #FDC9D1;
+}
+.shopEnd{    
+  font-size: 23px;
+  position: absolute;
+  font-family: "Sour Gummy", sans-serif;
+  height: 30px;
+  width: 73px;
+  padding: 5px;
+  left: 205px;
+  top: 21px;
+}
+.slogan{
+  position: relative;
+  top: 44px;
+  padding: 10px;
+  font-size: 10px;
+  font-family: cursive;
+}
+.header {
+  padding: 20px;
+  background-color: rgba(255, 182, 193, 0.7);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  height:60px;
+}
+
+/* Background Slideshow */
+.background {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Rating Section */
+.rating-section {
+  margin-top: 10px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Star Ratings */
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.star {
+  font-size: 2rem;
+  color: #ddd;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.star.active {
+  color: #ffbb33;
+  transform: scale(1.2);
+}
+
+.star:hover {
+  color: #ff8800;
+}
+
+/* Review Box */
+.review-box {
+  width: 90%;
+  max-width: 400px;
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  resize: none;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #ff3d2e;
+  transform: scale(1.05);
+}
+
+/* Emoji Pop-up */
+.emoji-popup {
+  margin-top: 20px;
+  animation: fade-in 0.5s ease;
+}
+
+.emoji-shower {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.emoji {
+  position: absolute;
+  top: -50px;
+  font-size: 2rem;
+  animation: fall 2s linear forwards;
+}
+.icon-container {
+  width:100%;
+  cursor:pointer;
+}
+.insta {
+  margin:20px;
+  color:#e56a7a;
+  font-size: 1.34rem;
+}
+.wp {
+  margin:20px;
+  color:#e56a7a;
+  font-size: 1.3rem;
+}
+.location {
+  margin:20px;
+  color:#e56a7a;
+  font-size: 1.3rem;
+}
+@keyframes fall {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(100vh); opacity: 0; }
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #555;
+}
+.copyright {
+   color:#e56a7a;
+}
